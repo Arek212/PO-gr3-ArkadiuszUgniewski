@@ -38,7 +38,11 @@ public class zadanie {
         //zadanie 8
 //        System.out.println("   +    \n  + +   \n +   +  \n+-----+\n| .-. |\n| | | |\n+-+-+-+\n");
         //zadanie 9
-//        System.out.println(" (-|-)        -----\n |   |       /Hello\\\n |   |       <Junior|\n  | |        \\Coder!/\n              -----");
+//        System.out.println("   (^^)          -----\n " +
+//                "/|   |\\       / Hello \\\n " +
+//                " |   |       < Junior  |\n  " +
+//                " | |         \\ Coder!/" +
+//                "\n                 -----");
         //zadanie 10
 //        System.out.println("1.Cowboy Bebop\n2.Mushishi\n3.Monster");
         //zadanie 11
