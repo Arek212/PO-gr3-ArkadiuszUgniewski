@@ -1,11 +1,10 @@
-package com.company;
 import java.util.Scanner;
 
 import static java.lang.Math.abs;
 import static java.lang.Math.pow;
 import static java.lang.Math.sqrt;
 //=======================================================1
-//public class Main {
+//public class main {
 //    public static void main(String[] args) {
 //        Scanner scan = new Scanner(System.in);
 //        int wynik = 0;
@@ -21,7 +20,7 @@ import static java.lang.Math.sqrt;
 //    }
 //}
 //======================================================2
-//public class Main {
+//public class main {
 //    public static void main(String[] args) {
 //        Scanner scan = new Scanner(System.in);
 //        int wynik = 0;
@@ -39,7 +38,7 @@ import static java.lang.Math.sqrt;
 //    }
 //}
 //============================================================3
-//public class Main {
+//public class main {
 //    public static void main(String[] args) {
 //        Scanner scan = new Scanner(System.in);
 //        int wynik = 0;
@@ -55,7 +54,7 @@ import static java.lang.Math.sqrt;
 //    }
 //}
 //================================================================4
-//public class Main {
+//public class main {
 //    public static void main(String[] args) {
 //        Scanner scan = new Scanner(System.in);
 //        double wynik = 0;
@@ -71,7 +70,7 @@ import static java.lang.Math.sqrt;
 //    }
 //}
 //====================================================5
-//public class Main {
+//public class main {
 //    public static void main(String[] args) {
 //        Scanner scan = new Scanner(System.in);
 //        int wynik = 0;
@@ -89,7 +88,7 @@ import static java.lang.Math.sqrt;
 //    }
 //}
 //=====================================================6
-//public class Main {
+//public class main {
 //    public static void main(String[] args) {
 //        Scanner scan = new Scanner(System.in);
 //        int wynik = 0;
@@ -105,7 +104,7 @@ import static java.lang.Math.sqrt;
 //    }
 //}
 //====================================================7
-//public class Main {
+//public class main {
 //    public static void main(String[] args) {
 //        Scanner scan = new Scanner(System.in);
 //        int wynik1 = 0;
@@ -127,7 +126,7 @@ import static java.lang.Math.sqrt;
 //    }
 //}
 //====================================================8
-//public class Main {
+//public class main {
 //    public static void main(String[] args) {
 //        Scanner scan = new Scanner(System.in);
 //        int wynik = 0;
@@ -144,7 +143,7 @@ import static java.lang.Math.sqrt;
 //    }
 //}
 //=====================================================9
-//public class Main {
+//public class main {
 //    public static void main(String[] args) {
 //        Scanner scan = new Scanner(System.in);
 //        int wynik = 0;
@@ -163,7 +162,7 @@ import static java.lang.Math.sqrt;
 //    }
 //}
 //=====================================================10
-//public class Main {
+//public class main {
 //    public static void main(String[] args) {
 //        Scanner scan = new Scanner(System.in);
 //        System.out.print("Wpisz n: ");
@@ -179,5 +178,192 @@ import static java.lang.Math.sqrt;
 //            System.out.print(tab[i]+"\n");
 //        }
 //        System.out.print(tab[0]);
+//    }
+//}
+//===================================================== zadanie 2.1 a
+//public class main {
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//        int wynik = 0;
+//        System.out.print("Wpisz n: ");
+//        int x = scan.nextInt();
+//        int y;
+//        for(int i =1;i <= x;i++){
+//            System.out.print("\nWpisz "+i+" liczbe: ");
+//            y = scan.nextInt();
+//            if (y % 2 == 1) wynik+=1;
+//        }
+//        System.out.print("Występuje liczb nieparzystych: "+wynik);
+//    }
+//}
+//===================================================== zadanie 2 b
+//public class main {
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//        int wynik = 0;
+//        System.out.print("Wpisz n: ");
+//        int x = scan.nextInt();
+//        int y;
+//        for(int i =1;i <= x;i++){
+//            System.out.print("\nWpisz "+i+" liczbe: ");
+//            y = scan.nextInt();
+//            if (y % 3 == 0 && y % 5 != 0) wynik+=1;
+//        }
+//        System.out.print("Występuje liczb nieparzystych: "+wynik);
+//    }
+//}
+//===================================================== zadanie 2 c
+//public class main {
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//        int wynik = 0;
+//        System.out.print("Wpisz n: ");
+//        int x = scan.nextInt();
+//        int y;
+//        for(int i = 1;i <= x;i++){
+//            System.out.print("\nWpisz "+i+" liczbe: ");
+//            y = scan.nextInt();
+//            if(sqrt(y) %2 == 0) wynik++;
+//        }
+//        System.out.print("wynik: "+wynik);
+//    }
+//}
+//===================================================== zadanie 2 d
+//public class main {
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//        int wynik = 0;
+//        System.out.print("Wpisz n: ");
+//        int x = scan.nextInt();
+//        int tab[] = new int[x];
+//        for(int i = 1;i < x - 1;i++){
+//            System.out.print("\nWpisz "+i+" liczbe: ");
+//            tab[i] = scan.nextInt();
+//            if(tab[i] < (tab[i-1]+tab[i+1])/2)wynik++;
+//        }
+//        System.out.print("wynik: "+wynik);
+//    }
+//}
+//===================================================== zadanie 2 e
+
+//===================================================== zadanie 2 f
+//public class main {
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//        int wynik = 0;
+//        System.out.print("Wpisz n: ");
+//        int x = scan.nextInt();
+//        int y;
+//        for(int i = 1;i <= x;i++){
+//            System.out.print("\nWpisz "+i+" liczbe: ");
+//            y = scan.nextInt();
+//            if(i%2==1 && y%2==0)wynik++;
+//        }
+//        System.out.print("wynik: "+wynik);
+//    }
+//}
+//===================================================== zadanie 2 g
+//public class main {
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//        int wynik = 0;
+//        System.out.print("Wpisz n: ");
+//        int x = scan.nextInt();
+//        int y;
+//        for(int i = 1;i <= x;i++){
+//            System.out.print("\nWpisz "+i+" liczbe: ");
+//            y = scan.nextInt();
+//            if(y%2==1 && y>=0)wynik++;
+//        }
+//        System.out.print("wynik: "+wynik);
+//    }
+//}
+//===================================================== zadanie 2 h
+//public class main {
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//        int wynik = 0;
+//        System.out.print("Wpisz n: ");
+//        int x = scan.nextInt();
+//        int y;
+//        for(int i = 1;i <= x;i++){
+//            System.out.print("\nWpisz "+i+" liczbe: ");
+//            y = scan.nextInt();
+//            if(abs(y) < pow(i, 2))wynik++;
+//        }
+//        System.out.print("wynik: "+wynik);
+//    }
+//}
+//===================================================== zadanie 2.2
+//public class main {
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//        int wynik = 0;
+//        System.out.print("Wpisz n: ");
+//        int x = scan.nextInt();
+//        int y;
+//        for(int i = 1;i <= x;i++){
+//            System.out.print("\nWpisz "+i+" liczbe: ");
+//            y = scan.nextInt();
+//            if(y>=0)wynik+=y;
+//        }
+//        System.out.print("wynik: "+wynik*2);
+//    }
+//}
+//===================================================== zadanie 2.3
+//public class main {
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//        int wynik0 = 0;
+//        int wynik1 = 0;
+//        int wynik2 = 0;
+//        System.out.print("Wpisz n: ");
+//        int x = scan.nextInt();
+//        int y;
+//        for(int i = 1;i <= x;i++){
+//            System.out.print("\nWpisz "+i+" liczbe: ");
+//            y = scan.nextInt();
+//            if(y==0)wynik0++;
+//            if(y>0)wynik1++;
+//            if(y<0)wynik2++;
+//        }
+//        System.out.print("dodatnie: "+wynik1+"\nujemne: "+wynik2+"\nrówne zero: "+wynik0);
+//    }
+//}
+//===================================================== zadanie 2.4
+//public class main {
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//        int najw = 0;
+//        int najm = 0;
+//        System.out.print("Wpisz n: ");
+//        int x = scan.nextInt();
+//        int y;
+//        for(int i = 1;i <= x;i++){
+//            System.out.print("\nWpisz "+i+" liczbe: ");
+//            y = scan.nextInt();
+//            if(i==1){ najm=y;najw=2;}
+//            if(y>najw)najw=y;
+//            if(y<najm)najm=y;
+//        }
+//        System.out.print("największa: "+najw+"\nnajmniejsza: "+najm);
+//    }
+//}
+//===================================================== zadanie 2.5
+//public class main {
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//        int wynik = 0;
+//        System.out.print("Wpisz n: ");
+//        int x = scan.nextInt();
+//        int y[] = new int[x];
+//        for(int i = 1;i <= x;i++){
+//            System.out.print("\nWpisz "+i+" liczbe: ");
+//            y[i-1] = scan.nextInt();
+//            if(i!=1){
+//                if(y[i-2]>0 && y[i-1]>0)wynik++;
+//            }
+//        }
+//        System.out.print("wynik: "+wynik);
 //    }
 //}
