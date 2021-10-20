@@ -11,10 +11,10 @@ import java.util.Random;
 //        int z = 0;
 //        while(z!=1){
 //        System.out.print("Wpisz n z przedziału od 1 do 100: ");
-//        x = scan.nextInt();
-//        if(x > 0 && x < 101)z = 1;
+//            x = scan.nextInt();
+//            if(x > 0 && x < 101)z = 1;
 //        }
-//        if(tab[i] == najw)wys++;
+//        int tab[] = new int[x];
 //        for(int i = 0;i < x;i++){
 //            tab[i] = r.nextInt(-999,999);
 //            if(tab[i] % 2 == 0)parz++;
@@ -143,7 +143,7 @@ import java.util.Random;
 //        }
 //    }
 //}
-//=======================================================1.g
+//=======================================================1.d
 //public class main {
 //    public static void main(String[] args) {
 //        Scanner scan = new Scanner(System.in);
