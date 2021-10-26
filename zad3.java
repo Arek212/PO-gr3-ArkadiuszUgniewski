@@ -176,3 +176,247 @@ import java.util.Random;
 //        }
 //    }
 //}
+//=======================================================2.a
+//public class main<pubilc> {
+//    public static void generuj(int tab[], int n, int minWartosc, int maxWartosc){
+//        Random r = new Random();
+//        for(int i = 0;i < n; i++){
+//            tab[i] = r.nextInt(minWartosc,maxWartosc);
+//        }
+//    }
+//    public static int ileNieparzystych(int tab[]){
+//        int wynik = 0;
+//        for(int i = 0; i<=tab.length - 1;i++){
+//            if(tab[i] % 2 == 1)wynik++;
+//        }
+//        return wynik;
+//    }
+//    public static int ileParzystych(int tab[]){
+//        int wynik = 0;
+//        for(int i = 0; i<=tab.length - 1;i++){
+//            if(tab[i] % 2 == 0)wynik++;
+//        }
+//        return wynik;
+//    }
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//        int n = 0;
+//        int z = 0;
+//        while(z!=1){
+//            System.out.print("Wpisz n z przedziału od 1 do 100: ");
+//            n = scan.nextInt();
+//            if(n > 0 && n < 101)z = 1;
+//        }
+//        int tab[] = new int[n];
+//        generuj(tab, n, -999, 999);
+//        System.out.print("Parzyste: "+ileParzystych(tab)+"\nNieparzyste: "+ileNieparzystych(tab));
+//    }
+//}
+//=======================================================2.a
+//public class main<pubilc> {
+//    public static void generuj(int tab[], int n, int minWartosc, int maxWartosc){
+//        Random r = new Random();
+//        for(int i = 0;i < n; i++){
+//            tab[i] = r.nextInt(minWartosc,maxWartosc);
+//        }
+//    }
+//    public static int ileNieparzystych(int tab[]){
+//        int wynik = 0;
+//        for(int i = 0; i<=tab.length - 1;i++){
+//            if(tab[i] % 2 == 1)wynik++;
+//        }
+//        return wynik;
+//    }
+//    public static int ileParzystych(int tab[]){
+//        int wynik = 0;
+//        for(int i = 0; i<=tab.length - 1;i++){
+//            if(tab[i] % 2 == 0)wynik++;
+//        }
+//        return wynik;
+//    }
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//        int n = 0;
+//        int z = 0;
+//        while(z!=1){
+//            System.out.print("Wpisz n z przedziału od 1 do 100: ");
+//            n = scan.nextInt();
+//            if(n > 0 && n < 101)z = 1;
+//        }
+//        int tab[] = new int[n];
+//        generuj(tab, n, -999, 999);
+//        System.out.print("Parzyste: "+ileParzystych(tab)+"\nNieparzyste: "+ileNieparzystych(tab));
+//    }
+//}
+//=======================================================2.b
+//public class main<pubilc> {
+//    public static void generuj(int tab[], int n, int minWartosc, int maxWartosc){
+//        Random r = new Random();
+//        for(int i = 0;i < n; i++){
+//            tab[i] = r.nextInt(minWartosc,maxWartosc);
+//        }
+//    }
+//    public static int ileDodatnich(int tab[]){
+//        int wynik = 0;
+//        for(int i = 0; i<=tab.length - 1;i++){
+//            if(tab[i] > 1)wynik++;
+//        }
+//        return wynik;
+//    }
+//    public static int ileUjemnych(int tab[]){
+//        int wynik = 0;
+//        for(int i = 0; i<=tab.length - 1;i++){
+//            if(tab[i] < 0)wynik++;
+//        }
+//        return wynik;
+//    }
+//      public static int ileZerowych(int tab[]){
+//        int wynik = 0;
+//        for(int i = 0; i<=tab.length - 1;i++){
+//            if(tab[i] == 0)wynik++;
+//        }
+//        return wynik;
+//    }
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//        int n = 0;
+//        int z = 0;
+//        while(z!=1){
+//            System.out.print("Wpisz n z przedziału od 1 do 100: ");
+//            n = scan.nextInt();
+//            if(n > 0 && n < 101)z = 1;
+//        }
+//        int tab[] = new int[n];
+//        generuj(tab, n, -999, 999);
+//        System.out.print("Dodatnie: "+ileDodatnich(tab)+"\nUjemne: "+ileUjemnych(tab)+"\nZera: "+ileZerowych(tab));
+//    }
+//}
+//=======================================================2.c
+//public class main<pubilc> {
+//    public static void generuj(int tab[], int n, int minWartosc, int maxWartosc){
+//        Random r = new Random();
+//        for(int i = 0;i < n; i++){
+//            tab[i] = r.nextInt(minWartosc,maxWartosc);
+//        }
+//    }
+//    public static int ileMaksymalnych(int tab[]){
+//        int wynik = 0;
+//        for(int i = 0; i<=tab.length - 1;i++){
+//            if(tab[i] == 999)wynik++;
+//        }
+//        return wynik;
+//    }
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//        int n = 0;
+//        int z = 0;
+//        while(z!=1){
+//            System.out.print("Wpisz n z przedziału od 1 do 100: ");
+//            n = scan.nextInt();
+//            if(n > 0 && n < 101)z = 1;
+//        }
+//        int tab[] = new int[n];
+//        generuj(tab, n, -999, 999);
+//        System.out.print("Maksymalnych: "+ileMaksymalnych(tab));
+//    }
+//}
+//=======================================================2.d
+//public class main<pubilc> {
+//    public static void generuj(int tab[], int n, int minWartosc, int maxWartosc){
+//        Random r = new Random();
+//        for(int i = 0;i < n; i++){
+//            tab[i] = r.nextInt(minWartosc,maxWartosc);
+//        }
+//    }
+//    public static int sumaDodatnich(int tab[]){
+//        int wynik = 0;
+//        for(int i = 0; i<=tab.length - 1;i++){
+//            if(tab[i] > 1)wynik+=tab[i];
+//        }
+//        return wynik;
+//    }
+//    public static int sumaUjemnych(int tab[]){
+//        int wynik = 0;
+//        for(int i = 0; i<=tab.length - 1;i++){
+//            if(tab[i] < 0)wynik+=tab[i];
+//        }
+//        return wynik;
+//    }
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//        int n = 0;
+//        int z = 0;
+//        while(z!=1){
+//            System.out.print("Wpisz n z przedziału od 1 do 100: ");
+//            n = scan.nextInt();
+//            if(n > 0 && n < 101)z = 1;
+//        }
+//        int tab[] = new int[n];
+//        generuj(tab, n, -999, 999);
+//        System.out.print("Suma dodatnich: "+sumaDodatnich(tab)+"\nSuma ujemnych: "+sumaUjemnych(tab));
+//    }
+//}
+//=======================================================2.e
+//public class main<pubilc> {
+//    public static void generuj(int tab[], int n, int minWartosc, int maxWartosc){
+//        Random r = new Random();
+//        for(int i = 0;i < n; i++){
+//            tab[i] = r.nextInt(minWartosc,maxWartosc);
+//        }
+//    }
+//    public static int dlugoscMaksymalnegoCiaguDodatnich(int tab[]){
+//        int najdluzszy = 0;
+//        int ciag = 0;
+//        for(int i = 0; i<=tab.length - 1;i++){
+//            if(tab[i] > 1)ciag++;
+//            else ciag = 0;
+//            if(ciag > najdluzszy)najdluzszy=ciag;
+//        }
+//        return najdluzszy;
+//    }
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//        int n = 0;
+//        int z = 0;
+//        while(z!=1){
+//            System.out.print("Wpisz n z przedziału od 1 do 100: ");
+//            n = scan.nextInt();
+//            if(n > 0 && n < 101)z = 1;
+//        }
+//        int tab[] = new int[n];
+//        generuj(tab, n, -999, 999);
+//        System.out.print("Najdłuższy ciąg: "+dlugoscMaksymalnegoCiaguDodatnich(tab));
+//    }
+//}
+//=======================================================2.f
+//public class main<pubilc> {
+//    public static void generuj(int tab[], int n, int minWartosc, int maxWartosc){
+//        Random r = new Random();
+//        for(int i = 0;i < n; i++){
+//            tab[i] = r.nextInt(minWartosc,maxWartosc);
+//        }
+//    }
+//    public static int dlugoscMaksymalnegoCiaguDodatnich(int tab[]){
+//        int najdluzszy = 0;
+//        int ciag = 0;
+//        for(int i = 0; i<=tab.length - 1;i++){
+//            if(tab[i] > 1)ciag++;
+//            else ciag = 0;
+//            if(ciag > najdluzszy)najdluzszy=ciag;
+//        }
+//        return najdluzszy;
+//    }
+//    public static void main(String[] args) {
+//        Scanner scan = new Scanner(System.in);
+//        int n = 0;
+//        int z = 0;
+//        while(z!=1){
+//            System.out.print("Wpisz n z przedziału od 1 do 100: ");
+//            n = scan.nextInt();
+//            if(n > 0 && n < 101)z = 1;
+//        }
+//        int tab[] = new int[n];
+//        generuj(tab, n, -999, 999);
+//        System.out.print("Najdłuższy ciąg: "+dlugoscMaksymalnegoCiaguDodatnich(tab));
+//    }
+//}
