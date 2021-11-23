@@ -27,22 +27,22 @@ public class main {
         IntegerSet set1 = new IntegerSet();
         IntegerSet set2 = new IntegerSet();
         IntegerSet set3 = new IntegerSet();
-        set1.insertElement(10);
-        set1.insertElement(15);
-        set1.insertElement(20);
+        set1.insertElement(44);
+        set1.insertElement(45);
+        set1.insertElement(46);
 
-        set2.insertElement(10);
-        set2.insertElement(14);
-        set2.insertElement(25);
+        set2.insertElement(45);
+        set2.insertElement(46);
+        set2.insertElement(47);
 
-        set3.insertElement(10);
-        set3.insertElement(15);
-        set3.insertElement(20);
+        set3.insertElement(45);
+        set3.insertElement(46);
+        set3.insertElement(47);
 
         System.out.println(set1);
         System.out.println(set2);
 
-        set2.deleteElement(14);
+        set1.deleteElement(45);
 
         System.out.println(set2);
 
